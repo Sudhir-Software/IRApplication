@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.irinspection.irapplication.C_Home">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/call"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="25dp" />
+
+    <Button
+        android:id="@+id/makeVideoCall_btn"
+        android:layout_width="151dp"
+        android:layout_height="53dp"
+        android:background="@android:color/holo_green_light"
+        android:text="Make Video Call"
+        tools:layout_editor_absoluteX="78dp"
+        tools:layout_editor_absoluteY="160dp" />
+
+    <Button
+        android:id="@+id/takePic_btn"
+        android:layout_width="149dp"
+        android:layout_height="50dp"
+        android:background="@android:color/holo_green_light"
+        android:text="Take Picture"
+        tools:layout_editor_absoluteX="78dp"
+        tools:layout_editor_absoluteY="231dp" />
+
+    <Button
+        android:id="@+id/askAppoinment_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_green_light"
+        android:text="Ask for appoinment"
+        tools:layout_editor_absoluteX="78dp"
+        tools:layout_editor_absoluteY="294dp" />
+
+    <Button
+        android:id="@+id/cancel_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_red_dark"
+        android:text="Cancel"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="366dp" />
+
+</android.support.constraint.ConstraintLayout>
